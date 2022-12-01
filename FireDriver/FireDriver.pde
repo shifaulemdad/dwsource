@@ -66,7 +66,7 @@ void showLand(Land[] row) {
 void liveFire(Land[] row) {
   //First, check Land objects to the left, apply state change rules.
   //Assume nothing useful to the left of row[0]
-  row[0].updateState(0);
+  row[0].updateNextState(0);
   for (int i=1; i<row.length; i++) {
     row[i].updateNextState(row[i-1].state);
   }//set nextStates for all plots
