@@ -5,7 +5,7 @@ class BlockRow {
   int minBlockSize;
   int maxBlockSize;
 
-  BlockRow(int nb, boolean orderd) {
+  BlockRow(int nb, boolean ordered) {
     numBlocks = nb;
     minBlockSize = MIN_BLOCK_SIZE;
 
